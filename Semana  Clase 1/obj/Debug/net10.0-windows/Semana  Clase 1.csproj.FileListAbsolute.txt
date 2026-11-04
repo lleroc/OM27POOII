@@ -1,0 +1,17 @@
+D:\UNIANDES\Oct26Mar27\Semana  Clase 1\bin\Debug\net10.0-windows\Semana  Clase 1.exe
+D:\UNIANDES\Oct26Mar27\Semana  Clase 1\bin\Debug\net10.0-windows\Semana  Clase 1.deps.json
+D:\UNIANDES\Oct26Mar27\Semana  Clase 1\bin\Debug\net10.0-windows\Semana  Clase 1.runtimeconfig.json
+D:\UNIANDES\Oct26Mar27\Semana  Clase 1\bin\Debug\net10.0-windows\Semana  Clase 1.dll
+D:\UNIANDES\Oct26Mar27\Semana  Clase 1\bin\Debug\net10.0-windows\Semana  Clase 1.pdb
+D:\UNIANDES\Oct26Mar27\Semana  Clase 1\obj\Debug\net10.0-windows\Semana__Clase_1.Form1.resources
+D:\UNIANDES\Oct26Mar27\Semana  Clase 1\obj\Debug\net10.0-windows\Semana  Clase 1.csproj.GenerateResource.cache
+D:\UNIANDES\Oct26Mar27\Semana  Clase 1\obj\Debug\net10.0-windows\Semana  Clase 1.GeneratedMSBuildEditorConfig.editorconfig
+D:\UNIANDES\Oct26Mar27\Semana  Clase 1\obj\Debug\net10.0-windows\Semana  Clase 1.AssemblyInfoInputs.cache
+D:\UNIANDES\Oct26Mar27\Semana  Clase 1\obj\Debug\net10.0-windows\Semana  Clase 1.AssemblyInfo.cs
+D:\UNIANDES\Oct26Mar27\Semana  Clase 1\obj\Debug\net10.0-windows\Semana  Clase 1.csproj.CoreCompileInputs.cache
+D:\UNIANDES\Oct26Mar27\Semana  Clase 1\obj\Debug\net10.0-windows\Semana  Clase 1.dll
+D:\UNIANDES\Oct26Mar27\Semana  Clase 1\obj\Debug\net10.0-windows\refint\Semana  Clase 1.dll
+D:\UNIANDES\Oct26Mar27\Semana  Clase 1\obj\Debug\net10.0-windows\Semana  Clase 1.pdb
+D:\UNIANDES\Oct26Mar27\Semana  Clase 1\obj\Debug\net10.0-windows\Semana  Clase 1.genruntimeconfig.cache
+D:\UNIANDES\Oct26Mar27\Semana  Clase 1\obj\Debug\net10.0-windows\ref\Semana  Clase 1.dll
+D:\UNIANDES\Oct26Mar27\Semana  Clase 1\obj\Debug\net10.0-windows\Semana  .198C61D8.Up2Date
