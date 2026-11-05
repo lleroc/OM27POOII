@@ -15,9 +15,10 @@
                 Descripcion = Detalle,
                 Id = IdEstadoCivil()
             };
+
             //estadoCivil.Descripcion = Detalle;
             //estadoCivil.Id = IdEstadoCivil();
-            estadoCivil.ListarEstadoCivil().Add(estadoCivil);
+            listaEstadoCivil.Add(estadoCivil);
             return estadoCivil;
         }
 
@@ -26,19 +27,28 @@
             return listaEstadoCivil;
         }
 
-        public EstadoCivilModel EditarEstadoCivil(int Id, string Detalle)
+        public EstadoCivilModel EditarEstadoCivil(EstadoCivilModel estadoCivil)
         {
-            var estadoCivil = listaEstadoCivil.FirstOrDefault(e => e.Id == Id);
-            if (estadoCivil != null)
+            var estado = listaEstadoCivil.FirstOrDefault(ec => ec.Id == estadoCivil.Id);
+            try
             {
-                estadoCivil.Descripcion = Detalle;
+                estado.Descripcion = estadoCivil.Descripcion;
+                return estado;
             }
-            return estadoCivil;
+            catch (Exception ex)
+            {
+
+                MessageBox.Show($"Error al editar el estado civil: {ex.Message}", "Error",
+                    MessageBoxButtons.OK, MessageBoxIcon.Error);
+
+                return new EstadoCivilModel { Id = 0, Descripcion= ex.Message };
+            }
+            
         }
 
-        public bool EliminarEstadoCivil(int Id)
+        public bool EliminarEstadoCivil(EstadoCivilModel estado)
         {
-            var estadoCivil = listaEstadoCivil.FirstOrDefault(e => e.Id == Id);
+            var estadoCivil = listaEstadoCivil.FirstOrDefault(e => e.Id == estado.Id);
             if (estadoCivil != null)
             {
                 listaEstadoCivil.Remove(estadoCivil);

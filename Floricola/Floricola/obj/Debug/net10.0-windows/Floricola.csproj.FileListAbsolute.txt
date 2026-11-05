@@ -20,3 +20,5 @@ D:\UNIANDES\Oct26Mar27\Floricola\Floricola\obj\Debug\net10.0-windows\Floricola.P
 D:\UNIANDES\Oct26Mar27\Floricola\Floricola\obj\Debug\net10.0-windows\Floricola.tareas.resources
 D:\UNIANDES\Oct26Mar27\Floricola\Floricola\obj\Debug\net10.0-windows\Floricola.Vistas.EstadoCivil.FrmListaEstadoCivil.resources
 D:\UNIANDES\Oct26Mar27\Floricola\Floricola\obj\Debug\net10.0-windows\Floricola.Vistas.EstadoCivil.FrmNuevoEstadoCivil.resources
+D:\UNIANDES\Oct26Mar27\Floricola\Floricola\obj\Debug\net10.0-windows\Floricola.sourcelink.json
+D:\UNIANDES\Oct26Mar27\Floricola\Floricola\obj\Debug\net10.0-windows\Floricola.Vistas.EstadoCivil.FrmEditarEsatdoCivil.resources

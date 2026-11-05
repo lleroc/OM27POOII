@@ -39,7 +39,7 @@
             btnGuardar.Location = new Point(12, 111);
             btnGuardar.Name = "btnGuardar";
             btnGuardar.Size = new Size(75, 23);
-            btnGuardar.TabIndex = 0;
+            btnGuardar.TabIndex = 2;
             btnGuardar.Text = "Guardar";
             btnGuardar.UseVisualStyleBackColor = true;
             btnGuardar.Click += btnGuardar_Click;
@@ -58,7 +58,7 @@
             txtNuevo.Location = new Point(12, 72);
             txtNuevo.Name = "txtNuevo";
             txtNuevo.Size = new Size(147, 23);
-            txtNuevo.TabIndex = 2;
+            txtNuevo.TabIndex = 1;
             // 
             // label2
             // 
@@ -66,9 +66,9 @@
             label2.Font = new Font("Segoe UI", 14F);
             label2.Location = new Point(2, 9);
             label2.Name = "label2";
-            label2.Size = new Size(179, 25);
+            label2.Size = new Size(169, 25);
             label2.TabIndex = 3;
-            label2.Text = "Nuevo Estaado Civil";
+            label2.Text = "Nuevo Estado Civil";
             // 
             // FrmNuevoEstadoCivil
             // 

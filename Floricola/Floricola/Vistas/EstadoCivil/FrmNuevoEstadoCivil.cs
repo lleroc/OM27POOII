@@ -1,20 +1,22 @@
 ﻿using Floricola.Controladores;
-
+using Floricola.Modelos;
 namespace Floricola.Vistas.EstadoCivil
 {
     public partial class FrmNuevoEstadoCivil : Form
     {
-        public static readonly FrmListaEstadoCivil frmListaEstadoCivil = new FrmListaEstadoCivil();
-        public FrmNuevoEstadoCivil()
+        private readonly EstadoCivilController _estadoCivilController;
+        public FrmNuevoEstadoCivil(EstadoCivilController estadoCivilController)
         {
             InitializeComponent();
+            _estadoCivilController = estadoCivilController;
         }
 
         private void btnGuardar_Click(object sender, EventArgs e)
         {
             try
             {
-                frmListaEstadoCivil.estadoCivil.NuevoEstadoCivil(txtNuevo.Text);
+                
+                _estadoCivilController.NuevoEstadoCivil(txtNuevo.Text.Trim());
                 MessageBox.Show("Estado Civil agregado correctamente", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 this.Close();
 

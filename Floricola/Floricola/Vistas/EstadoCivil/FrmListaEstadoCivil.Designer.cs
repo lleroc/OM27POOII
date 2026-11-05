@@ -53,6 +53,7 @@
             btnEditar.TabIndex = 1;
             btnEditar.Text = "Editar Estado Civil";
             btnEditar.UseVisualStyleBackColor = true;
+            btnEditar.Click += btnEditar_Click;
             // 
             // btnEliminar
             // 
@@ -62,6 +63,7 @@
             btnEliminar.TabIndex = 2;
             btnEliminar.Text = "Eliminar Estado Civil";
             btnEliminar.UseVisualStyleBackColor = true;
+            btnEliminar.Click += btnEliminar_Click;
             // 
             // label1
             // 
