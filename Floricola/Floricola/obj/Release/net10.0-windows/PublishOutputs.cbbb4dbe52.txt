@@ -1,0 +1,5 @@
+C:\Users\lleroc\Documents\Floricola.exe
+C:\Users\lleroc\Documents\Floricola.dll
+C:\Users\lleroc\Documents\Floricola.deps.json
+C:\Users\lleroc\Documents\Floricola.runtimeconfig.json
+C:\Users\lleroc\Documents\Floricola.pdb

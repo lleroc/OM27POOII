@@ -135,6 +135,7 @@
             Name = "Dashboard";
             Text = "FloriSoft";
             WindowState = FormWindowState.Maximized;
+            FormClosing += Dashboard_FormClosing;
             Load += Dashboard_Load;
             splitContainer1.Panel1.ResumeLayout(false);
             splitContainer1.Panel1.PerformLayout();

@@ -3,24 +3,28 @@
   "WorkspaceRootPath": "D:\\UNIANDES\\Oct26Mar27\\Floricola\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A57A7F5A-B409-3F1E-12F8-8CF1DFF59CF1}|Floricola\\Floricola.csproj|d:\\uniandes\\oct26mar27\\floricola\\floricola\\vistas\\estadocivil\\frmnuevoestadocivil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A57A7F5A-B409-3F1E-12F8-8CF1DFF59CF1}|Floricola\\Floricola.csproj|solutionrelative:floricola\\vistas\\estadocivil\\frmnuevoestadocivil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{A57A7F5A-B409-3F1E-12F8-8CF1DFF59CF1}|Floricola\\Floricola.csproj|d:\\uniandes\\oct26mar27\\floricola\\floricola\\vistas\\empleado\\frmnuevoempleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A57A7F5A-B409-3F1E-12F8-8CF1DFF59CF1}|Floricola\\Floricola.csproj|solutionrelative:floricola\\vistas\\empleado\\frmnuevoempleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A57A7F5A-B409-3F1E-12F8-8CF1DFF59CF1}|Floricola\\Floricola.csproj|d:\\uniandes\\oct26mar27\\floricola\\floricola\\vistas\\estadocivil\\frmeditaresatdocivil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A57A7F5A-B409-3F1E-12F8-8CF1DFF59CF1}|Floricola\\Floricola.csproj|solutionrelative:floricola\\vistas\\estadocivil\\frmeditaresatdocivil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{A57A7F5A-B409-3F1E-12F8-8CF1DFF59CF1}|Floricola\\Floricola.csproj|d:\\uniandes\\oct26mar27\\floricola\\floricola\\vistas\\empleado\\frmnuevoempleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A57A7F5A-B409-3F1E-12F8-8CF1DFF59CF1}|Floricola\\Floricola.csproj|solutionrelative:floricola\\vistas\\empleado\\frmnuevoempleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A57A7F5A-B409-3F1E-12F8-8CF1DFF59CF1}|Floricola\\Floricola.csproj|d:\\uniandes\\oct26mar27\\floricola\\floricola\\vistas\\estadocivil\\frmlistaestadocivil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A57A7F5A-B409-3F1E-12F8-8CF1DFF59CF1}|Floricola\\Floricola.csproj|solutionrelative:floricola\\vistas\\estadocivil\\frmlistaestadocivil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A57A7F5A-B409-3F1E-12F8-8CF1DFF59CF1}|Floricola\\Floricola.csproj|d:\\uniandes\\oct26mar27\\floricola\\floricola\\vistas\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A57A7F5A-B409-3F1E-12F8-8CF1DFF59CF1}|Floricola\\Floricola.csproj|solutionrelative:floricola\\vistas\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A57A7F5A-B409-3F1E-12F8-8CF1DFF59CF1}|Floricola\\Floricola.csproj|d:\\uniandes\\oct26mar27\\floricola\\floricola\\vistas\\estadocivil\\frmlistaestadocivil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A57A7F5A-B409-3F1E-12F8-8CF1DFF59CF1}|Floricola\\Floricola.csproj|solutionrelative:floricola\\vistas\\estadocivil\\frmlistaestadocivil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{A57A7F5A-B409-3F1E-12F8-8CF1DFF59CF1}|Floricola\\Floricola.csproj|d:\\uniandes\\oct26mar27\\floricola\\floricola\\vistas\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A57A7F5A-B409-3F1E-12F8-8CF1DFF59CF1}|Floricola\\Floricola.csproj|solutionrelative:floricola\\vistas\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A57A7F5A-B409-3F1E-12F8-8CF1DFF59CF1}|Floricola\\Floricola.csproj|d:\\uniandes\\oct26mar27\\floricola\\floricola\\controladores\\estadocivilcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A57A7F5A-B409-3F1E-12F8-8CF1DFF59CF1}|Floricola\\Floricola.csproj|solutionrelative:floricola\\controladores\\estadocivilcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A57A7F5A-B409-3F1E-12F8-8CF1DFF59CF1}|Floricola\\Floricola.csproj|d:\\uniandes\\oct26mar27\\floricola\\floricola\\modelos\\usuariomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A57A7F5A-B409-3F1E-12F8-8CF1DFF59CF1}|Floricola\\Floricola.csproj|solutionrelative:floricola\\modelos\\usuariomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A57A7F5A-B409-3F1E-12F8-8CF1DFF59CF1}|Floricola\\Floricola.csproj|d:\\uniandes\\oct26mar27\\floricola\\floricola\\modelos\\empleadomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A57A7F5A-B409-3F1E-12F8-8CF1DFF59CF1}|Floricola\\Floricola.csproj|solutionrelative:floricola\\modelos\\empleadomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,64 +42,78 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FrmNuevoEstadoCivil.cs [Design]",
-              "DocumentMoniker": "D:\\UNIANDES\\Oct26Mar27\\Floricola\\Floricola\\Vistas\\EstadoCivil\\FrmNuevoEstadoCivil.cs",
-              "RelativeDocumentMoniker": "Floricola\\Vistas\\EstadoCivil\\FrmNuevoEstadoCivil.cs",
-              "ToolTip": "D:\\UNIANDES\\Oct26Mar27\\Floricola\\Floricola\\Vistas\\EstadoCivil\\FrmNuevoEstadoCivil.cs [Design]",
-              "RelativeToolTip": "Floricola\\Vistas\\EstadoCivil\\FrmNuevoEstadoCivil.cs [Design]",
+              "DocumentIndex": 2,
+              "Title": "Dashboard.cs",
+              "DocumentMoniker": "D:\\UNIANDES\\Oct26Mar27\\Floricola\\Floricola\\Vistas\\Dashboard.cs",
+              "RelativeDocumentMoniker": "Floricola\\Vistas\\Dashboard.cs",
+              "ToolTip": "D:\\UNIANDES\\Oct26Mar27\\Floricola\\Floricola\\Vistas\\Dashboard.cs",
+              "RelativeToolTip": "Floricola\\Vistas\\Dashboard.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAywD8AAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-05T01:20:56.194Z",
+              "WhenOpened": "2026-11-10T01:03:06.052Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Dashboard.cs [Design]",
+              "DocumentMoniker": "D:\\UNIANDES\\Oct26Mar27\\Floricola\\Floricola\\Vistas\\Dashboard.cs",
+              "RelativeDocumentMoniker": "Floricola\\Vistas\\Dashboard.cs",
+              "ToolTip": "D:\\UNIANDES\\Oct26Mar27\\Floricola\\Floricola\\Vistas\\Dashboard.cs [Design]",
+              "RelativeToolTip": "Floricola\\Vistas\\Dashboard.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-10T01:02:57.306Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "FrmEditarEsatdoCivil.cs [Design]",
-              "DocumentMoniker": "D:\\UNIANDES\\Oct26Mar27\\Floricola\\Floricola\\Vistas\\EstadoCivil\\FrmEditarEsatdoCivil.cs",
-              "RelativeDocumentMoniker": "Floricola\\Vistas\\EstadoCivil\\FrmEditarEsatdoCivil.cs",
-              "ToolTip": "D:\\UNIANDES\\Oct26Mar27\\Floricola\\Floricola\\Vistas\\EstadoCivil\\FrmEditarEsatdoCivil.cs [Design]",
-              "RelativeToolTip": "Floricola\\Vistas\\EstadoCivil\\FrmEditarEsatdoCivil.cs [Design]",
+              "Title": "frmNuevoEmpleado.cs [Design]",
+              "DocumentMoniker": "D:\\UNIANDES\\Oct26Mar27\\Floricola\\Floricola\\Vistas\\Empleado\\frmNuevoEmpleado.cs",
+              "RelativeDocumentMoniker": "Floricola\\Vistas\\Empleado\\frmNuevoEmpleado.cs",
+              "ToolTip": "D:\\UNIANDES\\Oct26Mar27\\Floricola\\Floricola\\Vistas\\Empleado\\frmNuevoEmpleado.cs [Design]",
+              "RelativeToolTip": "Floricola\\Vistas\\Empleado\\frmNuevoEmpleado.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-05T01:20:16.024Z",
+              "WhenOpened": "2026-11-09T23:55:47.539Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "FrmListaEstadoCivil.cs [Design]",
-              "DocumentMoniker": "D:\\UNIANDES\\Oct26Mar27\\Floricola\\Floricola\\Vistas\\EstadoCivil\\FrmListaEstadoCivil.cs",
-              "RelativeDocumentMoniker": "Floricola\\Vistas\\EstadoCivil\\FrmListaEstadoCivil.cs",
-              "ToolTip": "D:\\UNIANDES\\Oct26Mar27\\Floricola\\Floricola\\Vistas\\EstadoCivil\\FrmListaEstadoCivil.cs [Design]",
-              "RelativeToolTip": "Floricola\\Vistas\\EstadoCivil\\FrmListaEstadoCivil.cs [Design]",
+              "DocumentIndex": 0,
+              "Title": "frmNuevoEmpleado.cs",
+              "DocumentMoniker": "D:\\UNIANDES\\Oct26Mar27\\Floricola\\Floricola\\Vistas\\Empleado\\frmNuevoEmpleado.cs",
+              "RelativeDocumentMoniker": "Floricola\\Vistas\\Empleado\\frmNuevoEmpleado.cs",
+              "ToolTip": "D:\\UNIANDES\\Oct26Mar27\\Floricola\\Floricola\\Vistas\\Empleado\\frmNuevoEmpleado.cs",
+              "RelativeToolTip": "Floricola\\Vistas\\Empleado\\frmNuevoEmpleado.cs",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAAwGgAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-05T01:06:43.499Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FrmListaEstadoCivil.cs",
-              "DocumentMoniker": "D:\\UNIANDES\\Oct26Mar27\\Floricola\\Floricola\\Vistas\\EstadoCivil\\FrmListaEstadoCivil.cs",
-              "RelativeDocumentMoniker": "Floricola\\Vistas\\EstadoCivil\\FrmListaEstadoCivil.cs",
-              "ToolTip": "D:\\UNIANDES\\Oct26Mar27\\Floricola\\Floricola\\Vistas\\EstadoCivil\\FrmListaEstadoCivil.cs",
-              "RelativeToolTip": "Floricola\\Vistas\\EstadoCivil\\FrmListaEstadoCivil.cs",
-              "ViewState": "AgIAAFUAAAAAAAAAAAAiwG4AAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-05T00:33:20.613Z",
+              "WhenOpened": "2026-11-10T00:14:33.444Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "EstadoCivilController.cs",
-              "DocumentMoniker": "D:\\UNIANDES\\Oct26Mar27\\Floricola\\Floricola\\Controladores\\EstadoCivilController.cs",
-              "RelativeDocumentMoniker": "Floricola\\Controladores\\EstadoCivilController.cs",
-              "ToolTip": "D:\\UNIANDES\\Oct26Mar27\\Floricola\\Floricola\\Controladores\\EstadoCivilController.cs",
-              "RelativeToolTip": "Floricola\\Controladores\\EstadoCivilController.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAUwDkAAAAJAAAAAAAAAA==",
+              "Title": "UsuarioModel.cs",
+              "DocumentMoniker": "D:\\UNIANDES\\Oct26Mar27\\Floricola\\Floricola\\Modelos\\UsuarioModel.cs",
+              "RelativeDocumentMoniker": "Floricola\\Modelos\\UsuarioModel.cs",
+              "ToolTip": "D:\\UNIANDES\\Oct26Mar27\\Floricola\\Floricola\\Modelos\\UsuarioModel.cs",
+              "RelativeToolTip": "Floricola\\Modelos\\UsuarioModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-05T00:46:39.825Z",
+              "WhenOpened": "2026-11-10T00:14:02.877Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EmpleadoModel.cs",
+              "DocumentMoniker": "D:\\UNIANDES\\Oct26Mar27\\Floricola\\Floricola\\Modelos\\EmpleadoModel.cs",
+              "RelativeDocumentMoniker": "Floricola\\Modelos\\EmpleadoModel.cs",
+              "ToolTip": "D:\\UNIANDES\\Oct26Mar27\\Floricola\\Floricola\\Modelos\\EmpleadoModel.cs",
+              "RelativeToolTip": "Floricola\\Modelos\\EmpleadoModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-09T23:48:05.123Z",
               "EditorCaption": ""
             }
           ]

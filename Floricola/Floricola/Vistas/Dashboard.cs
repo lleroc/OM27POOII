@@ -1,4 +1,5 @@
 using Floricola.Recursos;
+using Floricola.Vistas.Empleado;
 using Floricola.Vistas.EstadoCivil;
 
 namespace Floricola
@@ -13,7 +14,7 @@ namespace Floricola
 
             menuStrip1.Dock = DockStyle.Left;
             menuStrip1.AutoSize = true;
-            
+
             //menuStrip1.Width = 220;
 
             menuStrip1.LayoutStyle = ToolStripLayoutStyle.VerticalStackWithOverflow;
@@ -23,7 +24,7 @@ namespace Floricola
             foreach (ToolStripItem item in menuStrip1.Items)
             {
                 item.AutoSize = false;
-                
+
                 item.Size = new Size(210, 50);
                 item.ForeColor = Color.White;
                 item.TextAlign = ContentAlignment.MiddleLeft;
@@ -40,6 +41,8 @@ namespace Floricola
 
         private void item_Usuarios_Click(object sender, EventArgs e)
         {
+            var usaurio = new frmNuevoEmpleado();
+            usaurio.ShowDialog();
 
         }
 
@@ -52,6 +55,13 @@ namespace Floricola
         private void Dashboard_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void Dashboard_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
+
+            Environment.Exit(0);
         }
     }
 }

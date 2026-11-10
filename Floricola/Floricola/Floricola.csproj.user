@@ -1,10 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_LastSelectedProfileId>D:\UNIANDES\Oct26Mar27\Floricola\Floricola\Properties\PublishProfiles\FolderProfile.pubxml</_LastSelectedProfileId>
+  </PropertyGroup>
   <ItemGroup>
     <Compile Update="Vistas\Dashboard.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Vistas\Empleado\frmNuevoEmpleado.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Vistas\EstadoCivil\FrmEditarEsatdoCivil.cs">
@@ -14,9 +20,6 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Vistas\EstadoCivil\FrmNuevoEstadoCivil.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="Vistas\tareas.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>
