@@ -22,3 +22,16 @@ D:\UNIANDES\Oct26Mar27\Floricola\Floricola\obj\Debug\net10.0-windows\Floricola.V
 D:\UNIANDES\Oct26Mar27\Floricola\Floricola\obj\Debug\net10.0-windows\Floricola.sourcelink.json
 D:\UNIANDES\Oct26Mar27\Floricola\Floricola\obj\Debug\net10.0-windows\Floricola.Vistas.EstadoCivil.FrmEditarEsatdoCivil.resources
 D:\UNIANDES\Oct26Mar27\Floricola\Floricola\obj\Debug\net10.0-windows\Floricola.Vistas.Empleado.frmNuevoEmpleado.resources
+D:\UNIANDES\Oct26Mar27\Floricola\Floricola\bin\Debug\net10.0-windows\BouncyCastle.Cryptography.dll
+D:\UNIANDES\Oct26Mar27\Floricola\Floricola\bin\Debug\net10.0-windows\Google.Protobuf.dll
+D:\UNIANDES\Oct26Mar27\Floricola\Floricola\bin\Debug\net10.0-windows\K4os.Compression.LZ4.dll
+D:\UNIANDES\Oct26Mar27\Floricola\Floricola\bin\Debug\net10.0-windows\K4os.Compression.LZ4.Streams.dll
+D:\UNIANDES\Oct26Mar27\Floricola\Floricola\bin\Debug\net10.0-windows\K4os.Hash.xxHash.dll
+D:\UNIANDES\Oct26Mar27\Floricola\Floricola\bin\Debug\net10.0-windows\MySql.Data.dll
+D:\UNIANDES\Oct26Mar27\Floricola\Floricola\bin\Debug\net10.0-windows\ZstdSharp.dll
+D:\UNIANDES\Oct26Mar27\Floricola\Floricola\bin\Debug\net10.0-windows\runtimes\win-x64\native\comerr64.dll
+D:\UNIANDES\Oct26Mar27\Floricola\Floricola\bin\Debug\net10.0-windows\runtimes\win-x64\native\gssapi64.dll
+D:\UNIANDES\Oct26Mar27\Floricola\Floricola\bin\Debug\net10.0-windows\runtimes\win-x64\native\k5sprt64.dll
+D:\UNIANDES\Oct26Mar27\Floricola\Floricola\bin\Debug\net10.0-windows\runtimes\win-x64\native\krb5_64.dll
+D:\UNIANDES\Oct26Mar27\Floricola\Floricola\bin\Debug\net10.0-windows\runtimes\win-x64\native\krbcc64.dll
+D:\UNIANDES\Oct26Mar27\Floricola\Floricola\obj\Debug\net10.0-windows\Floricola.csproj.AssemblyReference.cache

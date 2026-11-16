@@ -3,28 +3,16 @@
   "WorkspaceRootPath": "D:\\UNIANDES\\Oct26Mar27\\Floricola\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A57A7F5A-B409-3F1E-12F8-8CF1DFF59CF1}|Floricola\\Floricola.csproj|d:\\uniandes\\oct26mar27\\floricola\\floricola\\vistas\\empleado\\frmnuevoempleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A57A7F5A-B409-3F1E-12F8-8CF1DFF59CF1}|Floricola\\Floricola.csproj|solutionrelative:floricola\\vistas\\empleado\\frmnuevoempleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A57A7F5A-B409-3F1E-12F8-8CF1DFF59CF1}|Floricola\\Floricola.csproj|d:\\uniandes\\oct26mar27\\floricola\\floricola\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A57A7F5A-B409-3F1E-12F8-8CF1DFF59CF1}|Floricola\\Floricola.csproj|solutionrelative:floricola\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A57A7F5A-B409-3F1E-12F8-8CF1DFF59CF1}|Floricola\\Floricola.csproj|d:\\uniandes\\oct26mar27\\floricola\\floricola\\vistas\\empleado\\frmnuevoempleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A57A7F5A-B409-3F1E-12F8-8CF1DFF59CF1}|Floricola\\Floricola.csproj|solutionrelative:floricola\\vistas\\empleado\\frmnuevoempleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{A57A7F5A-B409-3F1E-12F8-8CF1DFF59CF1}|Floricola\\Floricola.csproj|d:\\uniandes\\oct26mar27\\floricola\\floricola\\controladores\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A57A7F5A-B409-3F1E-12F8-8CF1DFF59CF1}|Floricola\\Floricola.csproj|solutionrelative:floricola\\controladores\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A57A7F5A-B409-3F1E-12F8-8CF1DFF59CF1}|Floricola\\Floricola.csproj|d:\\uniandes\\oct26mar27\\floricola\\floricola\\vistas\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A57A7F5A-B409-3F1E-12F8-8CF1DFF59CF1}|Floricola\\Floricola.csproj|solutionrelative:floricola\\vistas\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A57A7F5A-B409-3F1E-12F8-8CF1DFF59CF1}|Floricola\\Floricola.csproj|d:\\uniandes\\oct26mar27\\floricola\\floricola\\vistas\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A57A7F5A-B409-3F1E-12F8-8CF1DFF59CF1}|Floricola\\Floricola.csproj|solutionrelative:floricola\\vistas\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A57A7F5A-B409-3F1E-12F8-8CF1DFF59CF1}|Floricola\\Floricola.csproj|d:\\uniandes\\oct26mar27\\floricola\\floricola\\modelos\\usuariomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A57A7F5A-B409-3F1E-12F8-8CF1DFF59CF1}|Floricola\\Floricola.csproj|solutionrelative:floricola\\modelos\\usuariomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A57A7F5A-B409-3F1E-12F8-8CF1DFF59CF1}|Floricola\\Floricola.csproj|d:\\uniandes\\oct26mar27\\floricola\\floricola\\modelos\\empleadomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A57A7F5A-B409-3F1E-12F8-8CF1DFF59CF1}|Floricola\\Floricola.csproj|solutionrelative:floricola\\modelos\\empleadomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A57A7F5A-B409-3F1E-12F8-8CF1DFF59CF1}|Floricola\\Floricola.csproj|D:\\UNIANDES\\Oct26Mar27\\Floricola\\floricola\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A57A7F5A-B409-3F1E-12F8-8CF1DFF59CF1}|Floricola\\Floricola.csproj|solutionrelative:floricola\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,79 +30,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Dashboard.cs",
-              "DocumentMoniker": "D:\\UNIANDES\\Oct26Mar27\\Floricola\\Floricola\\Vistas\\Dashboard.cs",
-              "RelativeDocumentMoniker": "Floricola\\Vistas\\Dashboard.cs",
-              "ToolTip": "D:\\UNIANDES\\Oct26Mar27\\Floricola\\Floricola\\Vistas\\Dashboard.cs",
-              "RelativeToolTip": "Floricola\\Vistas\\Dashboard.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAAywD8AAAAgAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Login.cs",
+              "DocumentMoniker": "D:\\UNIANDES\\Oct26Mar27\\Floricola\\Floricola\\Login.cs",
+              "RelativeDocumentMoniker": "Floricola\\Login.cs",
+              "ToolTip": "D:\\UNIANDES\\Oct26Mar27\\Floricola\\Floricola\\Login.cs",
+              "RelativeToolTip": "Floricola\\Login.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAA9wBAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-10T01:03:06.052Z",
+              "WhenOpened": "2026-11-12T00:51:51.969Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Dashboard.cs [Design]",
-              "DocumentMoniker": "D:\\UNIANDES\\Oct26Mar27\\Floricola\\Floricola\\Vistas\\Dashboard.cs",
-              "RelativeDocumentMoniker": "Floricola\\Vistas\\Dashboard.cs",
-              "ToolTip": "D:\\UNIANDES\\Oct26Mar27\\Floricola\\Floricola\\Vistas\\Dashboard.cs [Design]",
-              "RelativeToolTip": "Floricola\\Vistas\\Dashboard.cs [Design]",
+              "DocumentIndex": 2,
+              "Title": "Login.cs [Design]",
+              "DocumentMoniker": "D:\\UNIANDES\\Oct26Mar27\\Floricola\\Floricola\\Login.cs",
+              "RelativeDocumentMoniker": "Floricola\\Login.cs",
+              "ToolTip": "D:\\UNIANDES\\Oct26Mar27\\Floricola\\Floricola\\Login.cs [Design]",
+              "RelativeToolTip": "Floricola\\Login.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-10T01:02:57.306Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-11-12T00:51:31.108Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "frmNuevoEmpleado.cs [Design]",
-              "DocumentMoniker": "D:\\UNIANDES\\Oct26Mar27\\Floricola\\Floricola\\Vistas\\Empleado\\frmNuevoEmpleado.cs",
-              "RelativeDocumentMoniker": "Floricola\\Vistas\\Empleado\\frmNuevoEmpleado.cs",
-              "ToolTip": "D:\\UNIANDES\\Oct26Mar27\\Floricola\\Floricola\\Vistas\\Empleado\\frmNuevoEmpleado.cs [Design]",
-              "RelativeToolTip": "Floricola\\Vistas\\Empleado\\frmNuevoEmpleado.cs [Design]",
+              "Title": "UsuariosController.cs",
+              "DocumentMoniker": "D:\\UNIANDES\\Oct26Mar27\\Floricola\\Floricola\\Controladores\\UsuariosController.cs",
+              "RelativeDocumentMoniker": "Floricola\\Controladores\\UsuariosController.cs",
+              "ToolTip": "D:\\UNIANDES\\Oct26Mar27\\Floricola\\Floricola\\Controladores\\UsuariosController.cs",
+              "RelativeToolTip": "Floricola\\Controladores\\UsuariosController.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAowDkAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-09T23:55:47.539Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "frmNuevoEmpleado.cs",
-              "DocumentMoniker": "D:\\UNIANDES\\Oct26Mar27\\Floricola\\Floricola\\Vistas\\Empleado\\frmNuevoEmpleado.cs",
-              "RelativeDocumentMoniker": "Floricola\\Vistas\\Empleado\\frmNuevoEmpleado.cs",
-              "ToolTip": "D:\\UNIANDES\\Oct26Mar27\\Floricola\\Floricola\\Vistas\\Empleado\\frmNuevoEmpleado.cs",
-              "RelativeToolTip": "Floricola\\Vistas\\Empleado\\frmNuevoEmpleado.cs",
-              "ViewState": "AgIAAFkAAAAAAAAAAAAAwGgAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-10T00:14:33.444Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UsuarioModel.cs",
-              "DocumentMoniker": "D:\\UNIANDES\\Oct26Mar27\\Floricola\\Floricola\\Modelos\\UsuarioModel.cs",
-              "RelativeDocumentMoniker": "Floricola\\Modelos\\UsuarioModel.cs",
-              "ToolTip": "D:\\UNIANDES\\Oct26Mar27\\Floricola\\Floricola\\Modelos\\UsuarioModel.cs",
-              "RelativeToolTip": "Floricola\\Modelos\\UsuarioModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-10T00:14:02.877Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "EmpleadoModel.cs",
-              "DocumentMoniker": "D:\\UNIANDES\\Oct26Mar27\\Floricola\\Floricola\\Modelos\\EmpleadoModel.cs",
-              "RelativeDocumentMoniker": "Floricola\\Modelos\\EmpleadoModel.cs",
-              "ToolTip": "D:\\UNIANDES\\Oct26Mar27\\Floricola\\Floricola\\Modelos\\EmpleadoModel.cs",
-              "RelativeToolTip": "Floricola\\Modelos\\EmpleadoModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-09T23:48:05.123Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-12T00:33:04.177Z"
             }
           ]
         }

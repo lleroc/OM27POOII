@@ -34,7 +34,7 @@
             label3 = new Label();
             textBox1 = new TextBox();
             textBox2 = new TextBox();
-            label4 = new Label();
+            lblMensaje = new Label();
             button3 = new Button();
             SuspendLayout();
             // 
@@ -98,19 +98,20 @@
             textBox2.ForeColor = Color.FromArgb(3, 22, 52);
             textBox2.Location = new Point(23, 147);
             textBox2.Name = "textBox2";
+            textBox2.PasswordChar = '*';
             textBox2.Size = new Size(164, 29);
             textBox2.TabIndex = 6;
             // 
-            // label4
+            // lblMensaje
             // 
-            label4.AutoSize = true;
-            label4.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
-            label4.ForeColor = Color.FromArgb(3, 22, 52);
-            label4.Location = new Point(12, 252);
-            label4.Name = "label4";
-            label4.Size = new Size(74, 21);
-            label4.TabIndex = 7;
-            label4.Text = "Mensaje";
+            lblMensaje.AutoSize = true;
+            lblMensaje.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
+            lblMensaje.ForeColor = Color.FromArgb(3, 22, 52);
+            lblMensaje.Location = new Point(12, 252);
+            lblMensaje.Name = "lblMensaje";
+            lblMensaje.Size = new Size(74, 21);
+            lblMensaje.TabIndex = 7;
+            lblMensaje.Text = "Mensaje";
             // 
             // button3
             // 
@@ -120,7 +121,7 @@
             button3.TabIndex = 8;
             button3.Text = "Ingresar";
             button3.UseVisualStyleBackColor = true;
-            button3.Click += this.button3_Click;
+            button3.Click += button3_Click;
             // 
             // Login
             // 
@@ -129,7 +130,7 @@
             BackColor = Color.FromArgb(232, 221, 203);
             ClientSize = new Size(228, 364);
             Controls.Add(button3);
-            Controls.Add(label4);
+            Controls.Add(lblMensaje);
             Controls.Add(textBox2);
             Controls.Add(textBox1);
             Controls.Add(label3);
@@ -156,7 +157,7 @@
         private Label label3;
         private TextBox textBox1;
         private TextBox textBox2;
-        private Label label4;
+        private Label lblMensaje;
         private Button button3;
     }
 }
