@@ -46,8 +46,9 @@ namespace Floricola.Controladores
         {
             using var conexion = new ConexionMySql().ObtenerConexion();
             conexion.Open();
-            string cadena = "INSERT INTO usuarios (nombre_usuario, password_hash, activo) VALUES (@Nombre_Usuario, @Password, @Activo)";
+            string cadena = "INSERT INTO usuarios (empleado_id, nombre_usuario, password_hash, activo) VALUES (@EmpleadoId, @Nombre_Usuario, @Password, @Activo)";
             using var comando = new MySqlCommand(cadena, conexion);
+            comando.Parameters.AddWithValue("@EmpleadoId", usuario.EstadoCivilModelId);
             comando.Parameters.AddWithValue("@Nombre_Usuario", usuario.Nombre_Usuario);
             comando.Parameters.AddWithValue("@Password", usuario.Password);
             comando.Parameters.AddWithValue("@Activo", usuario.Activo);

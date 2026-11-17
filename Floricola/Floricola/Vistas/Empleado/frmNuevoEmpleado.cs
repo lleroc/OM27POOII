@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Floricola.Controladores;
+using Floricola.Recursos;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -8,14 +10,19 @@ using System.Reflection.Metadata.Ecma335;
 using System.Text;
 using System.Windows.Forms;
 
+using Floricola.Modelos;
 namespace Floricola.Vistas.Empleado
 {
     public partial class frmNuevoEmpleado : Form
     {
         bool editar = false;
+        Validaciones _validaciones = new Validaciones();
+        private readonly EstadoCivilController _estadoCivil = new EstadoCivilController();
+        private readonly EmpleadoController _empleadoController = new EmpleadoController();
         public frmNuevoEmpleado()
         {
             InitializeComponent();
+            _validaciones.SoloNumeros(txtCedula, 10);
         }
 
         private void label9_Click(object sender, EventArgs e)
@@ -25,6 +32,12 @@ namespace Floricola.Vistas.Empleado
 
         private void frmNuevoEmpleado_Load(object sender, EventArgs e)
         {
+            cmbEstadoCivil.DataSource = _estadoCivil.ListarEstadoCivil();
+            cmbEstadoCivil.DisplayMember = "descripcion";
+            cmbEstadoCivil.ValueMember = "id";  
+
+            cmbEstadoCivil.SelectedIndex = -1; // Selecciona un valor predeterminado (opcional)
+            cmbEstadoCivil.DropDownStyle = ComboBoxStyle.DropDownList; // Evita que el usuario escriba en el ComboBox
 
         }
 
@@ -42,7 +55,7 @@ namespace Floricola.Vistas.Empleado
 
         private void btnSalir_Click(object sender, EventArgs e)
         {
-            this.Close();
+            this.Hide();
         }
 
         private void btnNuevo_Click(object sender, EventArgs e)
@@ -166,8 +179,34 @@ namespace Floricola.Vistas.Empleado
                 }
                 else
                 {
-                    // Aquí puedes agregar la lógica para guardar un nuevo empleado
-                    MessageBox.Show("Empleado guardado correctamente.");
+                    var empleado = new EmpleadoModel
+                    {
+                        Cedula = txtCedula.Text,
+                        Nombres = txtNombres.Text,
+                        Apellidos = txtApellidos.Text,
+                        Direccion = txtDireccion.Text,
+                        Telefono = txtTelefono.Text,
+                        Celular = txtCelular.Text,
+                        Correo = txtCorreo.Text,
+                        EstadoCivilModelId = (int)cmbEstadoCivil.SelectedValue
+                    };
+
+                    var usuario = new UsuarioModel
+                    {
+                        Nombre_Usuario = txtUsuario.Text,
+                        Password = txtContraseña.Text,
+                        EstadoCivilModelId = empleado.Id
+                    };
+
+                    var resultado = _empleadoController.nuevo(empleado, usuario);
+                    if (resultado != null)
+                    {
+                        MessageBox.Show("Empleado guardado correctamente.");
+                    }
+                    else
+                    {
+                        MessageBox.Show("Error al guardar el empleado.");
+                    }
                 }
                 DesactivarCajas();
             }
@@ -175,9 +214,48 @@ namespace Floricola.Vistas.Empleado
 
         private void frmNuevoEmpleado_FormClosing(object sender, FormClosingEventArgs e)
         {
-            System.Diagnostics.Debugger.Break();
+
             Application.Exit();
             Environment.Exit(0);
+        }
+
+        private void txtCedula_Leave(object sender, EventArgs e)
+        {
+            var respuesta = _validaciones.ValidarCedulaEcuatoriana(txtCedula.Text);
+            if (!respuesta)
+            {
+                MessageBox.Show("La cédula ingresada no es válida. Por favor, verifique el número de cédula.");
+                txtCedula.Focus();
+            }
+        }
+
+        private void txtCedula_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            //MessageBox.Show(e.KeyChar.ToString());  
+            //MessageBox.Show(char.IsDigit(e.KeyChar).ToString());
+            _validaciones.SoloNumeros_KeyPress(sender, e);
+        }
+
+        private void txtTelefono_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            _validaciones.SoloNumeros_KeyPress(sender, e);
+        }
+
+        private void txtCelular_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            _validaciones.SoloNumeros_KeyPress(sender, e);
+           
+
+        }
+
+        private void cmbEstadoCivil_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            e.Handled = true; // Evita que se escriba en el ComboBox
+        }
+
+        private void txtCelular_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

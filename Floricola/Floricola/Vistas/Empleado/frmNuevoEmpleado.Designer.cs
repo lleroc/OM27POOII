@@ -76,6 +76,7 @@
             cmbEstadoCivil.Name = "cmbEstadoCivil";
             cmbEstadoCivil.Size = new Size(157, 27);
             cmbEstadoCivil.TabIndex = 1;
+            cmbEstadoCivil.KeyPress += cmbEstadoCivil_KeyPress;
             // 
             // label2
             // 
@@ -102,6 +103,8 @@
             txtCedula.Name = "txtCedula";
             txtCedula.Size = new Size(163, 26);
             txtCedula.TabIndex = 4;
+            txtCedula.KeyPress += txtCedula_KeyPress;
+            txtCedula.Leave += txtCedula_Leave;
             // 
             // txtNombres
             // 
@@ -176,9 +179,11 @@
             // 
             txtTelefono.Enabled = false;
             txtTelefono.Location = new Point(181, 51);
+            txtTelefono.MaxLength = 20;
             txtTelefono.Name = "txtTelefono";
             txtTelefono.Size = new Size(157, 26);
             txtTelefono.TabIndex = 14;
+            txtTelefono.KeyPress += txtTelefono_KeyPress;
             // 
             // label8
             // 
@@ -193,9 +198,12 @@
             // 
             txtCelular.Enabled = false;
             txtCelular.Location = new Point(181, 102);
+            txtCelular.MaxLength = 20;
             txtCelular.Name = "txtCelular";
             txtCelular.Size = new Size(157, 26);
             txtCelular.TabIndex = 16;
+            txtCelular.TextChanged += txtCelular_TextChanged;
+            txtCelular.KeyPress += txtCelular_KeyPress;
             // 
             // label9
             // 
