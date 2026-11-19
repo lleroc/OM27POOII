@@ -11,6 +11,7 @@ using System.Text;
 using System.Windows.Forms;
 
 using Floricola.Modelos;
+using Floricola.Modelos.ViewModel;
 namespace Floricola.Vistas.Empleado
 {
     public partial class frmNuevoEmpleado : Form
@@ -23,6 +24,7 @@ namespace Floricola.Vistas.Empleado
         {
             InitializeComponent();
             _validaciones.SoloNumeros(txtCedula, 10);
+            editar = false;
         }
 
         private void label9_Click(object sender, EventArgs e)
@@ -38,6 +40,18 @@ namespace Floricola.Vistas.Empleado
 
             cmbEstadoCivil.SelectedIndex = -1; // Selecciona un valor predeterminado (opcional)
             cmbEstadoCivil.DropDownStyle = ComboBoxStyle.DropDownList; // Evita que el usuario escriba en el ComboBox
+
+            ListaEmpleados();
+
+        }
+
+        public void ListaEmpleados() {
+            lstEmpleados.DataSource = null;
+            lstEmpleados.Items.Clear();
+
+            lstEmpleados.DataSource = _empleadoController.todos();
+            lstEmpleados.DisplayMember = "Nombres";
+            lstEmpleados.ValueMember = "id";
 
         }
 
@@ -68,7 +82,27 @@ namespace Floricola.Vistas.Empleado
             if (lstEmpleados.SelectedIndex != -1)
             {
                 editar = true;
+
+                UEmpleadoViewModel empleadoSeleccionado =  new UEmpleadoViewModel();    
+                empleadoSeleccionado = 
+                    _empleadoController.uno((int)lstEmpleados.SelectedValue);  
+
+                txtNombres.Text = empleadoSeleccionado.Nombres;
+                txtApellidos.Text = empleadoSeleccionado.Apellidos;
+                txtCedula.Text = empleadoSeleccionado.Cedula;
+                txtDireccion.Text = empleadoSeleccionado.Direccion;
+                txtTelefono.Text = empleadoSeleccionado.Telefono;
+                txtCelular.Text = empleadoSeleccionado.Celular;
+                txtCorreo.Text = empleadoSeleccionado.Correo;
+                cmbEstadoCivil.SelectedValue = empleadoSeleccionado.EstadoCivilModelId;
+
+                chbEstado.Checked = empleadoSeleccionado.Activo; 
+
+                txtUsuario.Text = empleadoSeleccionado.Nombre_Usuario;
+                txtContraseña.Text = empleadoSeleccionado.Password;
+                lblIdUsuario.Text = empleadoSeleccionado.UsuarioId.ToString();
                 ActivarCajas();
+
             }
             else
             {
@@ -155,9 +189,15 @@ namespace Floricola.Vistas.Empleado
                     "Confirmar eliminación", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
                 if (result == DialogResult.Yes)
                 {
-                    // Aquí puedes agregar la lógica para eliminar el empleado seleccionado
-                    MessageBox.Show("Empleado eliminado correctamente.");
-                    DesactivarCajas();
+                    int idempleado = (int)lstEmpleados.SelectedValue;
+                    
+                    var eliminacion = _empleadoController.eliminar(idempleado);
+                    if (eliminacion) {
+                        MessageBox.Show("Empleado eliminado correctamente.");
+                        DesactivarCajas();
+                        ListaEmpleados();
+                    }
+                    
                 }
             }
             else
@@ -174,8 +214,38 @@ namespace Floricola.Vistas.Empleado
             {
                 if (editar)
                 {
-                    // Aquí puedes agregar la lógica para actualizar el empleado existente
-                    MessageBox.Show("Empleado actualizado correctamente.");
+                    var empleado = new EmpleadoModel
+                    {
+                        Id = (int)lstEmpleados.SelectedValue,
+                        Cedula = txtCedula.Text,
+                        Nombres = txtNombres.Text,
+                        Apellidos = txtApellidos.Text,
+                        Direccion = txtDireccion.Text,
+                        Telefono = txtTelefono.Text,
+                        Celular = txtCelular.Text,
+                        Correo = txtCorreo.Text,
+                        EstadoCivilModelId = (int)cmbEstadoCivil.SelectedValue
+                    };
+
+                    var usuario = new UsuarioModel
+                    {
+                        Id = Convert.ToInt32(lblIdUsuario.Text),
+                        Nombre_Usuario = txtUsuario.Text,
+                        Password = txtContraseña.Text,
+                        EstadoCivilModelId = empleado.Id
+                    };
+
+                    var resultado = _empleadoController.editar(empleado, usuario);
+                    if (resultado != null)
+                    {
+                        editar = false;
+
+                        MessageBox.Show("Empleado guardado correctamente.");
+                    }
+                    else
+                    {
+                        MessageBox.Show("Error al guardar el empleado.");
+                    }
                 }
                 else
                 {
@@ -209,6 +279,7 @@ namespace Floricola.Vistas.Empleado
                     }
                 }
                 DesactivarCajas();
+                ListaEmpleados();
             }
         }
 

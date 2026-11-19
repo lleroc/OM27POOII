@@ -57,6 +57,7 @@
             txtContraseña = new TextBox();
             label12 = new Label();
             chbEstado = new CheckBox();
+            lblIdUsuario = new Label();
             SuspendLayout();
             // 
             // label1
@@ -75,7 +76,7 @@
             cmbEstadoCivil.Location = new Point(181, 216);
             cmbEstadoCivil.Name = "cmbEstadoCivil";
             cmbEstadoCivil.Size = new Size(157, 27);
-            cmbEstadoCivil.TabIndex = 1;
+            cmbEstadoCivil.TabIndex = 8;
             cmbEstadoCivil.KeyPress += cmbEstadoCivil_KeyPress;
             // 
             // label2
@@ -102,7 +103,7 @@
             txtCedula.Location = new Point(12, 52);
             txtCedula.Name = "txtCedula";
             txtCedula.Size = new Size(163, 26);
-            txtCedula.TabIndex = 4;
+            txtCedula.TabIndex = 1;
             txtCedula.KeyPress += txtCedula_KeyPress;
             txtCedula.Leave += txtCedula_Leave;
             // 
@@ -112,7 +113,7 @@
             txtNombres.Location = new Point(12, 103);
             txtNombres.Name = "txtNombres";
             txtNombres.Size = new Size(163, 26);
-            txtNombres.TabIndex = 6;
+            txtNombres.TabIndex = 2;
             // 
             // label4
             // 
@@ -129,7 +130,7 @@
             txtApellidos.Location = new Point(12, 158);
             txtApellidos.Name = "txtApellidos";
             txtApellidos.Size = new Size(163, 26);
-            txtApellidos.TabIndex = 8;
+            txtApellidos.TabIndex = 3;
             // 
             // label5
             // 
@@ -146,7 +147,7 @@
             txtDireccion.Location = new Point(12, 217);
             txtDireccion.Name = "txtDireccion";
             txtDireccion.Size = new Size(163, 26);
-            txtDireccion.TabIndex = 10;
+            txtDireccion.TabIndex = 4;
             txtDireccion.TextChanged += txtDireccion_TextChanged;
             // 
             // label6
@@ -164,7 +165,7 @@
             txtCorreo.Location = new Point(181, 157);
             txtCorreo.Name = "txtCorreo";
             txtCorreo.Size = new Size(157, 26);
-            txtCorreo.TabIndex = 12;
+            txtCorreo.TabIndex = 7;
             // 
             // label7
             // 
@@ -182,7 +183,7 @@
             txtTelefono.MaxLength = 20;
             txtTelefono.Name = "txtTelefono";
             txtTelefono.Size = new Size(157, 26);
-            txtTelefono.TabIndex = 14;
+            txtTelefono.TabIndex = 5;
             txtTelefono.KeyPress += txtTelefono_KeyPress;
             // 
             // label8
@@ -201,7 +202,7 @@
             txtCelular.MaxLength = 20;
             txtCelular.Name = "txtCelular";
             txtCelular.Size = new Size(157, 26);
-            txtCelular.TabIndex = 16;
+            txtCelular.TabIndex = 6;
             txtCelular.TextChanged += txtCelular_TextChanged;
             txtCelular.KeyPress += txtCelular_KeyPress;
             // 
@@ -230,7 +231,7 @@
             btnNuevo.Location = new Point(31, 394);
             btnNuevo.Name = "btnNuevo";
             btnNuevo.Size = new Size(75, 56);
-            btnNuevo.TabIndex = 18;
+            btnNuevo.TabIndex = 12;
             btnNuevo.Text = "Nuevo";
             btnNuevo.UseVisualStyleBackColor = true;
             btnNuevo.Click += btnNuevo_Click;
@@ -241,7 +242,7 @@
             btnGuardar.Location = new Point(112, 394);
             btnGuardar.Name = "btnGuardar";
             btnGuardar.Size = new Size(75, 56);
-            btnGuardar.TabIndex = 19;
+            btnGuardar.TabIndex = 13;
             btnGuardar.Text = "Guardar";
             btnGuardar.UseVisualStyleBackColor = true;
             btnGuardar.Click += btnGuardar_Click;
@@ -252,7 +253,7 @@
             btnEditar.Location = new Point(193, 394);
             btnEditar.Name = "btnEditar";
             btnEditar.Size = new Size(75, 56);
-            btnEditar.TabIndex = 20;
+            btnEditar.TabIndex = 14;
             btnEditar.Text = "Editar";
             btnEditar.UseVisualStyleBackColor = true;
             btnEditar.Click += btnEditar_Click;
@@ -263,7 +264,7 @@
             btnEliminar.Location = new Point(274, 394);
             btnEliminar.Name = "btnEliminar";
             btnEliminar.Size = new Size(75, 56);
-            btnEliminar.TabIndex = 21;
+            btnEliminar.TabIndex = 15;
             btnEliminar.Text = "Eliminar";
             btnEliminar.UseVisualStyleBackColor = true;
             btnEliminar.Click += btnEliminar_Click;
@@ -273,7 +274,7 @@
             btnSalir.Location = new Point(355, 394);
             btnSalir.Name = "btnSalir";
             btnSalir.Size = new Size(75, 56);
-            btnSalir.TabIndex = 22;
+            btnSalir.TabIndex = 16;
             btnSalir.Text = "Salir";
             btnSalir.UseVisualStyleBackColor = true;
             btnSalir.Click += btnSalir_Click;
@@ -284,7 +285,7 @@
             txtUsuario.Location = new Point(39, 313);
             txtUsuario.Name = "txtUsuario";
             txtUsuario.Size = new Size(163, 26);
-            txtUsuario.TabIndex = 24;
+            txtUsuario.TabIndex = 9;
             // 
             // label10
             // 
@@ -310,7 +311,7 @@
             txtContraseña.Location = new Point(39, 362);
             txtContraseña.Name = "txtContraseña";
             txtContraseña.Size = new Size(163, 26);
-            txtContraseña.TabIndex = 27;
+            txtContraseña.TabIndex = 10;
             // 
             // label12
             // 
@@ -327,11 +328,20 @@
             chbEstado.Enabled = false;
             chbEstado.Location = new Point(274, 336);
             chbEstado.Name = "chbEstado";
-            chbEstado.Size = new Size(140, 23);
-            chbEstado.TabIndex = 28;
-            chbEstado.Text = "Estado de Usuario";
+            chbEstado.Size = new Size(70, 23);
+            chbEstado.TabIndex = 11;
+            chbEstado.Text = "Estado";
             chbEstado.UseVisualStyleBackColor = true;
             chbEstado.CheckedChanged += chbEstado_CheckedChanged;
+            // 
+            // lblIdUsuario
+            // 
+            lblIdUsuario.AutoSize = true;
+            lblIdUsuario.Location = new Point(299, 279);
+            lblIdUsuario.Name = "lblIdUsuario";
+            lblIdUsuario.Size = new Size(73, 19);
+            lblIdUsuario.TabIndex = 27;
+            lblIdUsuario.Text = "Usuario Id";
             // 
             // frmNuevoEmpleado
             // 
@@ -339,6 +349,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(487, 461);
             ControlBox = false;
+            Controls.Add(lblIdUsuario);
             Controls.Add(chbEstado);
             Controls.Add(txtContraseña);
             Controls.Add(label12);
@@ -412,5 +423,6 @@
         private TextBox txtContraseña;
         private Label label12;
         private CheckBox chbEstado;
+        private Label lblIdUsuario;
     }
 }

@@ -48,7 +48,7 @@ namespace Floricola.Controladores
             conexion.Open();
             string cadena = "INSERT INTO usuarios (empleado_id, nombre_usuario, password_hash, activo) VALUES (@EmpleadoId, @Nombre_Usuario, @Password, @Activo)";
             using var comando = new MySqlCommand(cadena, conexion);
-            comando.Parameters.AddWithValue("@EmpleadoId", usuario.EstadoCivilModelId);
+            comando.Parameters.AddWithValue("@EmpleadoId", usuario.empleado_id);
             comando.Parameters.AddWithValue("@Nombre_Usuario", usuario.Nombre_Usuario);
             comando.Parameters.AddWithValue("@Password", usuario.Password);
             comando.Parameters.AddWithValue("@Activo", usuario.Activo);
@@ -60,11 +60,14 @@ namespace Floricola.Controladores
         {
             using var conexion = new ConexionMySql().ObtenerConexion();
             conexion.Open();
-            string cadena = "UPDATE usuarios SET nombre_usuario = @Nombre_Usuario, password_hash = @Password, activo = @Activo WHERE id = @Id";
+            string cadena = "UPDATE usuarios SET nombre_usuario = @Nombre_Usuario, " +
+                "password_hash = @Password, empleado_id = @EmpleadoId, " +
+                "activo = @Activo WHERE id = @Id";
             using var comando = new MySqlCommand(cadena, conexion);
             comando.Parameters.AddWithValue("@Id", usuario.Id);
             comando.Parameters.AddWithValue("@Nombre_Usuario", usuario.Nombre_Usuario);
             comando.Parameters.AddWithValue("@Password", usuario.Password);
+            comando.Parameters.AddWithValue("@EmpleadoId", usuario.empleado_id);
             comando.Parameters.AddWithValue("@Activo", usuario.Activo);
             int filasAfectadas = comando.ExecuteNonQuery();
             return filasAfectadas > 0;
@@ -74,6 +77,16 @@ namespace Floricola.Controladores
             using var conexion = new ConexionMySql().ObtenerConexion();
             conexion.Open();
             string cadena = "DELETE FROM usuarios WHERE id = @Id";
+            using var comando = new MySqlCommand(cadena, conexion);
+            comando.Parameters.AddWithValue("@Id", id);
+            int filasAfectadas = comando.ExecuteNonQuery();
+            return filasAfectadas > 0;
+        }
+        public bool EliminarUsuarioEmpleado(int id)
+        {
+            using var conexion = new ConexionMySql().ObtenerConexion();
+            conexion.Open();
+            string cadena = "DELETE FROM usuarios WHERE empleado_id = @Id";
             using var comando = new MySqlCommand(cadena, conexion);
             comando.Parameters.AddWithValue("@Id", id);
             int filasAfectadas = comando.ExecuteNonQuery();

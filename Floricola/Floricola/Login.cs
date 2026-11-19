@@ -34,7 +34,7 @@ namespace Floricola
                 }
                 lblMensaje.Text = "Bienvenido, " + usuarioValidado.Nombre_Usuario;
 
-                await Task.Delay(3000); // Espera 3 segundos antes de abrir el dashboard
+                //await Task.Delay(3000); // Espera 3 segundos antes de abrir el dashboard
 
                 var dashboard = new Dashboard();
                 dashboard.Show();
