@@ -1,0 +1,91 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\UNIANDES\\Oct26Mar27\\Restuarant\\Restaurante\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{66BF087E-E457-93EB-4CAF-96BB4A66A958}|Restaurante.csproj|d:\\uniandes\\oct26mar27\\restuarant\\restaurante\\datos\\entidades\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66BF087E-E457-93EB-4CAF-96BB4A66A958}|Restaurante.csproj|solutionrelative:datos\\entidades\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66BF087E-E457-93EB-4CAF-96BB4A66A958}|Restaurante.csproj|d:\\uniandes\\oct26mar27\\restuarant\\restaurante\\datos\\entidades\\categorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66BF087E-E457-93EB-4CAF-96BB4A66A958}|Restaurante.csproj|solutionrelative:datos\\entidades\\categorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66BF087E-E457-93EB-4CAF-96BB4A66A958}|Restaurante.csproj|d:\\uniandes\\oct26mar27\\restuarant\\restaurante\\presentacion\\administracion\\productos\\frmlistaproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66BF087E-E457-93EB-4CAF-96BB4A66A958}|Restaurante.csproj|solutionrelative:presentacion\\administracion\\productos\\frmlistaproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66BF087E-E457-93EB-4CAF-96BB4A66A958}|Restaurante.csproj|d:\\uniandes\\oct26mar27\\restuarant\\restaurante\\presentacion\\administracion\\productos\\frmlistaproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{66BF087E-E457-93EB-4CAF-96BB4A66A958}|Restaurante.csproj|solutionrelative:presentacion\\administracion\\productos\\frmlistaproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Producto.cs",
+              "DocumentMoniker": "D:\\UNIANDES\\Oct26Mar27\\Restuarant\\Restaurante\\Datos\\Entidades\\Producto.cs",
+              "RelativeDocumentMoniker": "Datos\\Entidades\\Producto.cs",
+              "ToolTip": "D:\\UNIANDES\\Oct26Mar27\\Restuarant\\Restaurante\\Datos\\Entidades\\Producto.cs",
+              "RelativeToolTip": "Datos\\Entidades\\Producto.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAIwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-26T01:07:54.271Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Categorias.cs",
+              "DocumentMoniker": "D:\\UNIANDES\\Oct26Mar27\\Restuarant\\Restaurante\\Datos\\Entidades\\Categorias.cs",
+              "RelativeDocumentMoniker": "Datos\\Entidades\\Categorias.cs",
+              "ToolTip": "D:\\UNIANDES\\Oct26Mar27\\Restuarant\\Restaurante\\Datos\\Entidades\\Categorias.cs",
+              "RelativeToolTip": "Datos\\Entidades\\Categorias.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-26T01:06:27.512Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FrmListaProductos.cs",
+              "DocumentMoniker": "D:\\UNIANDES\\Oct26Mar27\\Restuarant\\Restaurante\\Presentacion\\Administracion\\Productos\\FrmListaProductos.cs",
+              "RelativeDocumentMoniker": "Presentacion\\Administracion\\Productos\\FrmListaProductos.cs",
+              "ToolTip": "D:\\UNIANDES\\Oct26Mar27\\Restuarant\\Restaurante\\Presentacion\\Administracion\\Productos\\FrmListaProductos.cs",
+              "RelativeToolTip": "Presentacion\\Administracion\\Productos\\FrmListaProductos.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAADwv0AAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-25T23:48:32.635Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FrmListaProductos.cs [Design]",
+              "DocumentMoniker": "D:\\UNIANDES\\Oct26Mar27\\Restuarant\\Restaurante\\Presentacion\\Administracion\\Productos\\FrmListaProductos.cs",
+              "RelativeDocumentMoniker": "Presentacion\\Administracion\\Productos\\FrmListaProductos.cs",
+              "ToolTip": "D:\\UNIANDES\\Oct26Mar27\\Restuarant\\Restaurante\\Presentacion\\Administracion\\Productos\\FrmListaProductos.cs [Design]",
+              "RelativeToolTip": "Presentacion\\Administracion\\Productos\\FrmListaProductos.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-26T00:05:37.803Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
